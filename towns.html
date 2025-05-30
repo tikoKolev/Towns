@@ -10,31 +10,26 @@
 
 <body>
 
-<h1>Towns</h1>
+<article>
+	<header>Towns</header>
+	<select id="towns" size="4">
+		<option>Sofia</option>
+		<option>Plovdiv</option>
+		<option>Varna</option>
+		<option>Bourgas</option>
+	</select>
+</article>
 
-<select id="towns" size="4">
-    <option>Sofia</option>
-    <option>Plovdiv</option>
-    <option>Varna</option>
-    <option>Bourgas</option>
-</select>
-
-<div>
-    <input type="text" id="townNameForAdd" />
-    <button id="btnAdd">Add</button>
-</div>
-
-<div>
+<article>
+    <header>Delete Existing Town</header>
     <input type="text" id="townName" />
     <button id="btnDelete">Delete</button>
-</div>
-
-<div>
-    <button id="btnShuffle">Shuffle</button>
-</div>
+</article>
 
 <div id="result"></div>
 
 </body>
 
 </html>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
