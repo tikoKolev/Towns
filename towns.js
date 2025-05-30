@@ -23,3 +23,6 @@ function addTown() {
 	$('#towns').append($('<option>').text(townName));
 	$('#result').text(townName + " added.");
 }
+$(document).ready(function() {
+	$('#btnAdd').click(addTown);
+});
